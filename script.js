@@ -53,7 +53,7 @@ function ingredients() {
         var auswahl = document.getElementById("auswahl").innerText;
 
         var request = new XMLHttpRequest();
-        var url = "http://www.thecocktaildb.com/api/json/v1/1/search.php?s="+auswahl;
+        var url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s="+auswahl;
         request.open('GET', url);
         request.send();
 
@@ -99,7 +99,7 @@ function ingredients() {
 
     $("#alkoholische").on('click', function() {
         var request = new XMLHttpRequest();
-        var url = "http://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic";
+        var url = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic";
         request.open('GET', url);
         request.send();
 
@@ -136,7 +136,7 @@ function ingredients() {
 
     $("#nichtalkoholische").on('click', function() {
         var request = new XMLHttpRequest();
-        var url = "http://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Non_Alcoholic";
+        var url = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Non_Alcoholic";
         request.open('GET', url);
         request.send();
 
