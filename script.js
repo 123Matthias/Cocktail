@@ -1,7 +1,7 @@
 function suchen() {
     var suche = document.getElementById('inputsuchen').value;
         var request = new XMLHttpRequest();
-        var url = "http://www.thecocktaildb.com/api/json/v1/1/search.php?s="+suche;
+        var url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s="+suche;
         request.open('GET', url);
         request.send();
 
