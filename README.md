@@ -1,5 +1,5 @@
 # 🍸 Cocktail Trainee WebSite
-Get Requests are not perfect but they wors.
+Get Requests are not perfect but they work. (No JS fetch()).
 
 **Mix Your Drink With the FREE API from https://www.thecocktaildb.com/**
 
